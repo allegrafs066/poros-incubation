@@ -1,0 +1,33 @@
+.counter {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cardContainer {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContainer > div {
+  flex: 1;
+}
+
+.specialContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.specialContainer > div {
+  flex: 1;
+}
+
+@media (max-width: 1024px) {
+  /* Card order */
+  .cardContainer {
+    display: flex;
+    flex-direction: column-reverse; /* Reverse order on wider screens */
+  }
+}

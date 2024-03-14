@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #ffd633;
+  padding: 20px;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.navbar img {
+  width: auto;
+  height: 100px;
+  align-self: center;
+  margin: 0 20px 0 20px;
+}
+
+.navbar p {
+  font-weight: bold;
+  padding: 70px 0;
+  font-size: 20px;
+  align-self: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media (max-width: 1024px) {
+  /* Navbar and Footer alignment */
+  .navbar {
+    justify-content: center; /* Left align on wider screens */
+  }
+}
